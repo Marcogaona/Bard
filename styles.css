@@ -1,0 +1,75 @@
+h1 {
+  text-align: center;
+  font-size: 48px;
+}
+body {
+  text-align: center;
+  background: black;
+  color: orange;
+}
+input {
+  padding: 0;
+  width: 250px;
+  height: 300px;
+}
+p {
+  text-align:center;
+}
+h2 {
+  text-align: left;
+  margin-left: 20px;
+}
+.Playlist{
+  display: flex;
+  flex-flow:row wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.Playlist div {
+  margin: 20px;
+  font-size: 50px;
+}
+.Playlist a{
+  text-decoration: none;
+  color: orange;
+}
+.Playlist-wrapper{
+  width: 80%;
+}
+.site-wrapper{
+  display: flex;
+  flex-flow:column nowrap;
+  align-items: center;
+}
+h3{
+  text-align: left;
+  margin-left: 20px;
+}
+.PopularArtist{
+  display: flex;
+  flex-flow:row wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.PopularArtist div{
+  margin: 20px;
+  font-size: 50px;
+}
+.PopularArtist-wrapper{
+  width: 80%;
+}
+.PopularArtist a{
+  text-decoration: none;
+  color: orange;
+}
+.my-account a{
+  text-decoration: none;
+  font-size: 20px;
+  color: orange;
+}
+.my-account{
+  text-align: right;
+}
+h1{
+  text-align: left;
+}
