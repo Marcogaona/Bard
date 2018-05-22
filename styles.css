@@ -62,6 +62,9 @@ h3{
   text-decoration: none;
   color: orange;
 }
+.site2-wrapper{
+  width: 80%;
+}
 .my-account a{
   text-decoration: none;
   font-size: 20px;
@@ -72,4 +75,51 @@ h3{
 }
 h1{
   text-align: left;
+}
+.username-wrapper{
+  width: 80%;
+}
+.username{
+  display: flex;
+  flex-flow:row wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.followed-artist-wrapper{
+  width: 80%;
+}
+.followed-artist{
+  display: flex;
+  flex-flow:row nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.followed-artist a{
+  text-decoration: none;
+  color: orange;
+}
+.followed-artist div{
+  margin: 20px;
+  font-size: 50px;
+}
+h1{
+  text-align: left;
+  font-size: 48px;
+}
+.site3-wrapper{
+  width: 80%;
+}
+.image{
+  display:flex;
+  align-items: flex-start;
+  font-size: 40px;
+}
+h1{
+  padding: 10px;
+}
+.albums-wrapper{
+  width: 80%;
+}
+.albums{
+  
 }
